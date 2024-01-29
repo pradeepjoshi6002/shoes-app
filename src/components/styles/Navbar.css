@@ -1,0 +1,27 @@
+.navbar-cont {
+  height: 5rem;
+  display: flex;
+  align-items: center;
+}
+.navbar-logo {
+  margin-left: 10vw;
+}
+.navbar-options {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-left: 25vw;
+}
+.navbar-options div {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.login-btn {
+  background-color: #d01c28;
+  color: white;
+  border: none;
+  margin-left: 30vw;
+  width: 4.68rem;
+  height: 2rem;
+  font-size: 1rem;
+}

@@ -1,0 +1,66 @@
+.main-cont {
+  min-height: calc(100vh - 5rem);
+  padding: 5rem 9rem 6rem 9rem;
+  display: flex;
+}
+.main-left-cont {
+  height: 613px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.main-left-top-cont {
+  height: 50%;
+  font-size: 6.75rem;
+  line-height: 102px;
+}
+.main-left-bottom-cont {
+  height: 50%;
+}
+.mlbc-1 {
+  margin: 2.2rem 0;
+  font-weight: 500;
+  width: 25rem;
+}
+.mlbc-2 {
+  width: 20rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2.65rem;
+}
+
+.shop-now-btn {
+  height: 2.5rem;
+  font-size: 1.5rem;
+  width: 9.4rem;
+  color: white;
+  background-color: #d01c28;
+  border: none;
+}
+.catg-btn {
+  height: 2.5rem;
+  font-size: 1.5rem;
+  width: 9.4rem;
+  color: gray;
+  background-color: white;
+  border: 2px solid gray;
+}
+.mlbc-3 {
+  height: 4.2rem;
+  display: flex;
+  flex-direction: column;
+}
+.mlbc-3-1 {
+  flex: 1;
+}
+.mlbc-3-2 {
+  flex: 1;
+  display: flex;
+  gap: 1rem;
+}
+.main-right-cont {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
